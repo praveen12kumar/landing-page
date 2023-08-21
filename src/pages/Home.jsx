@@ -34,7 +34,7 @@ const Home = () => {
       <section className="padding">
         <Subscribe/>
       </section>
-      <section className="padding">
+      <section className="padding bg-black">
         <Footer/>
       </section>
     </div>
