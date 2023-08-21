@@ -8,7 +8,7 @@ const SpecialOffer = () => {
       <img src={offer} alt="" width={773} height={687} className='object-contain' />
    </div>
    <div className="flex flex-col flex-1 sm:px-12">
-   <h2 className="mt-10 font-palanquin text-4xl capitalize font-bold lg:max-w-lg px-4">
+   <h2 className="mt-10 font-palanquin text-4xl capitalize font-bold lg:max-w-lg px-6">
        
        <span className="text-coral-red ">Special </span>
        <span className=" ">Offer</span>
@@ -20,13 +20,12 @@ const SpecialOffer = () => {
         Navigate a realm of possibilities designed to fulfill your unique desires, surpassing the loftiest exprectactions, Your Journet with us is nothing short of exceptional.
       </p>
 
-     <div className="flex ">
-        <button className="bg-coral-red text-white font-medium w-48 flex justify-center items-center gap-2 px-7 py-4 border font-montserrat text-lg leading-normal rounded-full">
-          Shop now
-          <img className="ml-1 rounded-full w-5 h-5" src={arrowRight} alt="" />
+     <div className="flex flex-col sm:flex-row justify-center items-center ">
+        <button className="bg-coral-red text-white font-medium w-48 flex justify-center items-center gap-2 px-4 py-3 border font-montserrat text-lg leading-normal rounded-full">
+          View Details
         </button>
 
-        <button className="bg-white ml-4 border-slate-gray  text-slate-gray font-medium w-44 flex justify-center items-center gap-2 px-7 py-4 border font-montserrat text-lg leading-normal rounded-full">
+        <button className="bg-white mt-6 sm:mt-0 ml-4 border-slate-gray  text-slate-gray font-medium w-48 flex justify-center items-center gap-2 px-4 py-3 border font-montserrat text-lg leading-normal rounded-full">
           Shop now
         </button>
      </div>
